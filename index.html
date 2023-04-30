@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="content\icon.png">
+    <title>UpEvent</title>
+</head>
+
+<body onload="myfunction()">
+    <!-- holla Proffs, welcome to our web structure! -->
+    <div id="events-container">
+        <!-- add the HTML code for the events section here -->
+        <div class="container">
+            <button id="show-btn">Show</button>
+            <div id="events-info">
+      </div>
+    <div class="main">
+        <div>
+            <header>
+                <div class="logo"><a href="index.htm"> <img src="content\new logo 3.jpg" alt="logo" id="headlogo">
+                            </a></div>
+                <div class="navbar">
+                    <ul class="navbarul">
+                        <a href="index.htm">
+                            <button class="navbutton">
+                                <img src="content\Home-free-icon-font.jpg" alt="home" id="Home">
+                            </button>
+                        </a>
+                        <a href="Form.html">
+                            <button class="navbutton" title="Add Event">
+                                <img src="content\Form.png" alt="Add" id="Add">
+                            </button>
+                        </a>
+                        <a href="team.htm">
+                        <button class="navbutton" title="About Team">
+                            <img src="content\team.png" alt="Team" id="Team">
+                        </button></a>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        <div class="carddiv">
+            <div class="arrowleft">
+                <button class="slideshowbtn" onclick="lastevent()" title="last">
+                    <img src="content\right-arrow.png" alt="home" id="leftslide">
+                </button>
+            </div>
+            <div class="notifcard">
+                <!-- <h1>Notification will be added here</h1> -->
+                <div class="notifposter" id="notiposterid" onclick="slide()" title="Click to know more">
+                    <button id="abouteventicon" title="Click to read more"><img src="content\small left arrow.png"
+                            alt="" id="slideiconimg1"></button>
+                    <span id="eventname1">
+                        <!--img src="content\logo1.jpg" alt="nologo" id="eventlogo"!-->
+                    </span>
+                    <!-- <div class="eventbtns">
+                        <div>
+                            <button class="navbutton eventnavbtns" title="share"><img src="content\share.png"
+                                    id="share"></button>
+                            <button class="navbutton eventnavbtns" title="Participate"><img
+                                    src="content\participate.png" id="takepart"></button>
+                            <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img
+                                    src="content\more.png" id="more"></button>
+                        </div>
+                    </div> -->
+                    <!-- <div class="notitransit"></div> -->
+                </div>
+                <div id="eventinfo">
+                    <!-- <div id="eventinfocard">
+                        <div id="evnamediv">
+                            <span>DevHeat Beta</span>
+                        </div>
+                        <div id="descdiv">
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni debitis officiis
+                                optio hic atque molestias quasi fuga, ipsa reiciendis enim, temporibus quibusdam quaerat
+                                facilis repellendus? Eos sequi unde dicta vero sunt voluptate in tempore rem illo
+                                possimus iure assumenda ipsa adipisci suscipit natus voluptas inventore temporibus,
+                                tenetur deserunt. Adipisci tempore eum in aperiam porro, sapiente vero id nulla. In
+                                quidem est recusandae voluptate esse dolorum ipsa nisi sed officiis!</span>
+                        </div>
+                        <div class="eventbtns" id="desdiv">
+                            <div>
+                                <button class="navbutton eventnavbtns" title="share"><img src="content\share.png"
+                                        id="share"></button>
+                                <button class="navbutton eventnavbtns" title="Participate"><img
+                                        src="content\participate.png" id="takepart"></button>
+                                <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img
+                                        src="content\more.png" id="more"></button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="arrowright">
+                <button class="slideshowbtn" onclick="nextevent()" title="next">
+                    <img src="content\small right arrow.png" alt="home" id="rightslide">
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="base">
+        <div>
+            <span>Created by Group D for the purpose of ED Project</span>
+            <a href="https://devheat.live/" target="_blank">
+                <img src="content\Group D.png" title="Our Group" alt="devheatlogo">
+            </a>
+            <div class="line"></div>
+            <div class="eventbtns" id="basebtns">
+                <div>
+                    <button class="navbutton eventnavbtns" title="linkedin"><a
+                            href="Content/linkedin.jpg"><img src="content\linkedin.jpg"
+                                id="takepart"></a></button>
+                    <button class="navbutton eventnavbtns" title="Instagram"><a
+                            href="Content\Instagram.jpg"><img
+                                src="content\instagram.jpg" id="share"></a></button>
+                    <button class="navbutton eventnavbtns" title="IIT Jodhpur"><a href=":Need to be inserted"><img
+                                src="content\IIT J.png" id="more"></a></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
