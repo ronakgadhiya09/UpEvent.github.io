@@ -1,0 +1,378 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    /* background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");  */
+    background-image: url("content\\background.jpg");
+    background-position: center;
+    /* background: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main {
+    display: inline-block;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+header {
+    height: 6rem;
+    background-color: transparent;
+}
+
+.logo {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+#headlogo {
+    margin-left: 6rem;
+    width: 10rem;
+    height: 6rem;
+}
+
+.carddiv {
+    margin: 3.5rem auto 10rem auto;
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap;
+}
+
+.notifcard {
+    display: block;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 34rem;
+    width: 70rem;
+    background-color: rgb(10, 10, 10);
+    margin: auto;
+}
+
+.notifcard:hover {
+    box-shadow: 12px 12px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-top: -10px;
+    transition: 0.2s;
+}
+
+.arrowleft {
+    display: block;
+    width: 60px;
+    height: 34rem;
+    background-color: transparent;
+    margin: auto;
+    margin-right: 20px;
+}
+
+#leftslide {
+    transform: rotate(180deg);
+    width: 35px;
+    height: auto;
+}
+
+.arrowright {
+    display: block;
+    width: 60px;
+    height: 34rem;
+    background-color: transparent;
+    margin: auto;
+    margin-left: 20px;
+
+}
+
+#rightslide {
+    /* transform: rotate(180deg); */
+    width: 35px;
+    height: auto;
+}
+
+.slideshowbtn {
+    display: block;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    margin-top: 15rem;
+}
+
+h1 {
+    width: fit-content;
+    /*Important to make alignment center. */
+    margin: auto;
+    padding: 0px;
+    color: white;
+}
+
+
+.navbar {
+    color: white;
+    width: fit-content;
+    height: auto;
+    margin: 0px 6rem 0px 0px;
+    float: right;
+    height: 6rem;
+}
+
+.navbarul {
+    list-style-type: none;
+    width: fit-content;
+    height: auto;
+    margin: 1.5rem 0px 0px 0px;
+    padding: 0;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.navbutton {
+    margin: 0px 10px;
+    padding: 16px 16px 13px 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.navbutton:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 100%;
+    transition: 0.2s;
+}
+
+.navbutton#navbtns {
+    margin: 0px 30px;
+}
+
+#Home,
+#Add,
+#Team {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+#Add {
+    margin: 0px 0px -3px 0px;
+}
+
+.notifposter {
+    width: 70rem;
+    height: 34rem;
+    display: inline-block;
+    background-color: antiquewhite;
+    background-image: url("Content/prometeo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+
+#abouteventicon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    margin: 10px 10px 10px 10px;
+}
+
+#abouteventicon:hover {
+    background-color: rgb(0, 0, 0, 0.6);
+
+}
+
+#slideiconimg1 {
+    width: 40px;
+    height: auto;
+}
+
+#Form {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.6);
+    padding: 10px 0px;
+    align-items: center;
+    text-align: center;
+    /* display: block; */
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    /* margin-top: -20px; */
+}
+
+#eventname1 {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: -5rem;
+    height: 25rem;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+}
+
+#eventinfocard {
+    display: block;
+    width: 28rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 1rem;
+    height: 30rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+#evnamediv {
+    display: flex;
+    width: fit-content;
+    height: 6rem;
+    color: black;
+    background-color: transparent;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#evnamediv>span {
+    padding: 1rem;
+}
+
+#descdiv {
+    display: flex;
+    height: 18rem;
+    width: fit-content;
+    color: black;
+    background-color: transparent;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+    text-align: center;
+}
+
+#descdiv>span {
+    padding: 2rem;
+}
+
+#desdiv {
+    height: 4rem;
+    padding-top: 1.5rem;
+}
+
+.base {
+    height: 16rem;
+    background-color: black;
+    position: static;
+    width: 100vw;
+    display: flex;
+}
+
+.base>div {
+    width: fit-content;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.base>div>a>img {
+    display: block;
+    height: 5rem;
+    width: auto;
+    margin: auto;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+.base>div>a>img:hover {
+    margin-top: 0.2rem;
+    padding-bottom: 0.3rem;
+}
+
+.base>div>span {
+    display: block;
+    width: auto;
+    color: rgb(200, 200, 200);
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0 0;
+    align-items: center;
+}
+
+.detail {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    background-color: transparent;
+    /* border: white solid 2px; */
+    border: none;
+}
+
+#eventlogo {
+    height: 34rem;
+    /* min-height: 20rem; */
+    max-width: 35rem;
+}
+
+.eventbtns {
+    height: 4rem;
+    background-color: transparent;
+    width: 100%;
+}
+
+.eventbtns>div {
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+    background-color: transparent;
+}
+
+#basebtns {
+    margin: 0.8rem;
+}
+
+/* #linkedin:hover,#instagram:hover,#IIT J:hover{
+    opacity: 0.6;
+} */
+#share,
+#more,
+#takepart {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+.eventnavbtns {
+    margin: 0px 30px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.detail>div {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.detail>div>div {
+    width: fit-content;
+    margin: 0px 30px;
+}
+
+.show-button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  .show-button:hover {
+    background-color: #0062cc;
+  }
+  
