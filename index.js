@@ -7,6 +7,7 @@ var eventtime = ["12:00", "13:00", "14:00", "15:00", "16:00", "17:00"]
 var partlinks = ["https://docs.google.com/forms/d/e/1FAIpQLSfIyB-J_IkKHjObnIIQ9HQXx5JsCtfp79Qn7OZdWXxoRiTrng/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSc3nTnrXgA3-JoF-6Zb4b1NMvJ0azu2Dx5py8yLg9QYfuN9tw/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSdX0McC4AIXKJQrFxDcORhsjwiotdfoSwg8jrNJIe_UmtQjJg/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSdIXCgBmvN28SxaaXqOt9sMHMj_31ApSxEWLbpbZ0ZjRjr-vA/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSfWj3TxYfQVZev6MjmUhCSnAtYY6UxVDkGGXOL7hhD17jBHog/viewform?usp=sf_link", "https://docs.google.com/forms/d/e/1FAIpQLSfWj3TxYfQVZev6MjmUhCSnAtYY6UxVDkGGXOL7hhD17jBHog/viewform?usp=sf_link"]
 var eventdes = [Lorem, Lorem, Lorem, Lorem, Lorem, Lorem]
 var i = 0;
+var j = 0;
 let eventlength = eventname.length;
 function myfunction() {
     if (i == 0) {
@@ -21,9 +22,9 @@ function myfunction() {
     }
 }
 function evinfo() {
-    document.getElementById("notiposterid").style.backgroundImage = 'url("./content/event' + (i + 1) + '.jpg")'
-    document.getElementById("eventname1").innerHTML = '<img src="content\\logo' + (i + 1) + '.jpg" alt="nologo" id="eventlogo">';
-}
+            // document.getElementById("notiposterid").style.backgroundImage = '<img src="event\\' + (i + 1) + '.jpg" alt="nologo" id="eventlogo">'
+          document.getElementById("eventname1").innerHTML = '<img src="event\\' + (i + 1) + '.jpg" alt="nologo" id="eventlogo">';
+                 }
 var a = 0;
 var t = a;
 function nextevent() {
@@ -60,9 +61,11 @@ function slide() {
         document.getElementById("notiposterid").style.cssText = "transition: 0.3s; width: 35rem;  ";
         document.getElementById("abouteventicon").style.cssText = "transition: 0.3s; transform: rotate(180deg)"
         setTimeout(info, 300);
+        // document.getElementById("notiposterid").style.backgroundImage = 'url("./content/logo.jpg")'
         document.getElementById("notiposterid").style.backgroundImage = 'url("./content/event' + (i + 1) + '.jpg")'
         document.getElementById("eventinfo").style.cssText = "transition: 0.5s; transition-delay: 0s; width:35rem; height:34rem; display: inline-block; float: right; background-color: rgb(255,255,255,);"
         a++
+        // j++
     }
     else {
         document.getElementById("notiposterid").style.cssText = "transition: 0.3s; width: 70rem;"

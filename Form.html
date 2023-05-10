@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="team.css"> -->
+    <link rel="stylesheet" href="form.css">
+    <script src="index.js"></script>
+    <link rel="icon" href="content\icon.png">
+    <title>UpEvent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <header>
+                <div class="logo"><img src="content\new logo 3.jpg" alt="logo" id="headlogo"></div>
+                <div class="navbar">
+                    <ul class="navbarul">
+                        <a href="index.html">
+                            <button class="navbutton">
+                                <img src="content\Home-free-icon-font.jpg" alt="home" id="Home">
+                            </button>
+                        </a>
+                        <!--<a href="Form.html">!-->
+                            <button class="navbutton">
+                                <img src="content\Home.png" alt="Add" id="Add">
+                            </button></a>
+                        <a href="team.htm">
+                            <button class="navbutton" title="About Team">
+                                <!-- <img src="content\Users-free-icon-font.png" alt="Team" id="Team"> -->
+                            </button></a>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        <div class="formdiv">
+                <div class="formhead">
+                    <!-- <p id="formheadtext">Add Event</p> -->
+                </div>
+                <form action="#" id="formid">
+                    <div class="detail">
+                        <div>
+                            <div id="evnameid2">
+                                <span>Event name:&nbsp;</span>
+                                <input type="text" class="textbox1" id="EventName">
+                            </div>
+                            <div id="organiserid2">
+                                <span>Organiser:&nbsp;</span>
+                                <input type="text" name="Organiser" class="textbox1" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div>
+                            <div id="venueid2">
+                                <span>Venue:&nbsp;</span>
+                                <input type="text" name="Venue" class="textbox1">
+                            </div>
+                            <div id="plinkid2">
+                                <span>Participation link:&nbsp;</span>
+                                <input type="text" name="" class="textbox1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div>
+                            <div id="dateid2">
+                                <span>Event Date:&nbsp;&nbsp;</span>
+                                <input type="date" name="Organising community" class="textbox1">
+                            </div>
+                            <div id="timeid2">
+                                <span>Time:&nbsp;&nbsp;</span>
+                                <input type="time" name="" id="" class="textbox1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div>
+                            <div id="desid2">
+                                <span>Description:&nbsp;&nbsp;</span>
+                                <textarea name="" id="text" cols="50" rows="1" placeholder="" class="textbox1"></textarea>
+                            </div>
+                            <div id="desid3">
+                                <span>Contact details.:&nbsp;&nbsp;</span>
+                                <textarea name="" id="text" cols="15" rows="1" placeholder="" class="textbox1"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div id="uploadid2">
+                            <span>Upload Poster (.jpg):&nbsp;&nbsp;</span>
+                            <input type="file" class="textbox1">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div>
+                        <div><input type="reset" class="frmbtns"></div>
+                        <div><input type="submit" class="frmbtns" onclick="addevent()"></div>
+                    </div>
+                    </div>
+                </form>
+        </div>
+                <!-- <h3> Event Name : <input type="text"></h3> -->
+            </div>
+            <!-- <div>
+                <h3> Institute : <input type="text"></h3>
+            </div> -->
+            <!-- <div>
+                <h3> Date : <input type="date"></h3>
+            </div>
+            <div>
+                <h3> Time : <input type="time"></h3>
+    </div> -->
+    </form>
+    </div>
+    <footer class="base">
+        <div>
+            <span>Created by team GROUP D for the purpose of ED Project</span>
+            <a href="participate.html" target="_blank">
+                <img src="https://devheat.live/assets/header/devheat-logo.png" title="devheat.live" alt="Group D logo">
+            </a>
+            <div class="eventbtns" id="basebtns">
+                <div>
+                    <button class="navbutton eventnavbtns" title="linkedin"><a
+                            href="https://www.linkedin.com/company/dsc-iiitsurat/"><img src="content\linkedin.png"
+                                id="takepart"></a></button>
+                    <button class="navbutton eventnavbtns" title="Instagram"><a
+                            href="https://instagram.com/gdsc_iiitsurat?igshid=YmMyMTA2M2Y="><img
+                                src="content\instagram.png" id="share"></a></button>
+                    <button class="navbutton eventnavbtns" title="IIIT Surat"><a href="http://www.iiitsurat.ac.in/"><img
+                                src="content\surat.png" id="more"></a></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

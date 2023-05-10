@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="team.css">
-    <link rel="stylesheet" href="form.css">
+    <!-- <link rel="stylesheet" href="form.css"> -->
     <script src="index.js"></script>
     <link rel="icon" href="content\icon.png">
     <title>UpEvent</title>
@@ -18,17 +18,16 @@
     <div id="events-container">
         <!-- add the HTML code for the events section here -->
         <div class="container">
-            <button id="show-btn">Show</button>
             <div id="events-info">
       </div>
     <div class="main">
         <div>
             <header>
-                <div class="logo"><a href="index.htm"> <img src="content\new logo 3.jpg" alt="logo" id="headlogo">
+                <div class="logo"><a href="index.html"> <img src="content\new logo 3.jpg" alt="logo" id="headlogo">
                             </a></div>
                 <div class="navbar">
                     <ul class="navbarul">
-                        <a href="index.htm">
+                        <a href="index.html">
                             <button class="navbutton">
                                 <img src="content\Home-free-icon-font.jpg" alt="home" id="Home">
                             </button>
@@ -38,10 +37,11 @@
                                 <img src="content\Form.png" alt="Add" id="Add">
                             </button>
                         </a>
-                        <a href="team.htm">
+                        <!-- </a> -->
+                        <!-- <a href="team.htm">
                         <button class="navbutton" title="About Team">
                             <img src="content\team.png" alt="Team" id="Team">
-                        </button></a>
+                        </button></a> -->
                     </ul>
                 </div>
             </header>
@@ -49,7 +49,7 @@
         <div class="carddiv">
             <div class="arrowleft">
                 <button class="slideshowbtn" onclick="lastevent()" title="last">
-                    <img src="content\right-arrow.png" alt="home" id="leftslide">
+                    <img src="content\small right arrow.png" alt="home" id="leftslide">
                 </button>
             </div>
             <div class="notifcard">
@@ -60,42 +60,57 @@
                     <span id="eventname1">
                         <!--img src="content\logo1.jpg" alt="nologo" id="eventlogo"!-->
                     </span>
+
+
+                    
                     <!-- <div class="eventbtns">
                         <div>
                             <button class="navbutton eventnavbtns" title="share"><img src="content\share.png"
                                     id="share"></button>
                             <button class="navbutton eventnavbtns" title="Participate"><img
-                                    src="content\participate.png" id="takepart"></button>
+                                    src="content\participate.jpg" id="takepart"></button>
                             <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img
-                                    src="content\more.png" id="more"></button>
+                                    src="content\more." id="more"></button>
                         </div>
                     </div> -->
+
+
+
+                    
                     <!-- <div class="notitransit"></div> -->
+
+
+
                 </div>
                 <div id="eventinfo">
-                    <!-- <div id="eventinfocard">
+                    <div id="eventinfocard">
                         <div id="evnamediv">
-                            <span>DevHeat Beta</span>
+                            <!-- <span>Group D</span> -->
                         </div>
                         <div id="descdiv">
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni debitis officiis
+                            <!-- <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni debitis officiis
                                 optio hic atque molestias quasi fuga, ipsa reiciendis enim, temporibus quibusdam quaerat
                                 facilis repellendus? Eos sequi unde dicta vero sunt voluptate in tempore rem illo
                                 possimus iure assumenda ipsa adipisci suscipit natus voluptas inventore temporibus,
                                 tenetur deserunt. Adipisci tempore eum in aperiam porro, sapiente vero id nulla. In
-                                quidem est recusandae voluptate esse dolorum ipsa nisi sed officiis!</span>
+                                quidem est recusandae voluptate esse dolorum ipsa nisi sed officiis!</span> -->
                         </div>
                         <div class="eventbtns" id="desdiv">
                             <div>
                                 <button class="navbutton eventnavbtns" title="share"><img src="content\share.png"
                                         id="share"></button>
-                                <button class="navbutton eventnavbtns" title="Participate"><img
-                                        src="content\participate.png" id="takepart"></button>
-                                <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img
-                                        src="content\more.png" id="more"></button>
+                                <a href="participate.html">
+                                <button class="navbutton eventnavbtns" title="Participate"><img src="content\participate.png" id="takepart"></button>
+                                </a>
+                                        <!-- <a href="participate.html">
+                                            <button class="navbutton eventnavbtns">
+                                                <img src="content\participate.png" alt="participate" id="takepart">>
+                                            </button>
+                                        </a> -->
+                                <button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\more.png" id="more"></button>  
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </div>
             <div class="arrowright">
@@ -108,8 +123,8 @@
     <footer class="base">
         <div>
             <span>Created by Group D for the purpose of ED Project</span>
-            <a href="https://devheat.live/" target="_blank">
-                <img src="content\Group D.png" title="Our Group" alt="devheatlogo">
+            <a href="participate.html" target="_blank">
+                <img src="content\participate.png" title="Participate" alt="devheatlogo">
             </a>
             <div class="line"></div>
             <div class="eventbtns" id="basebtns">

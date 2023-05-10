@@ -20,7 +20,7 @@
 }
 
 #click_here>a>span:hover {
-    background-color: rgb(119, 187, 255,0.8);
+    background-color: rgba(161, 212, 240, 0.8);
     transition: 0.2s;
     margin-top: 1.7rem;
     color: black;
