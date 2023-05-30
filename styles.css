@@ -2,13 +2,15 @@ body {
   font-family: Arial, sans-serif;
   /* background-image: url("content\\background.jpg"); */
   /* background-color: #f8e5f0; */
-  background-image: radial-gradient(#f7eaf1, rgb(249, 190, 235)) ;
+  background-image: url("content\\background3.jpg");
+  align-items: center;
   margin: 0;
 }
 
 header {
   background-color: #333;
   color: white;
+  text-align:center;
   padding: 20px;
 }
 
@@ -19,8 +21,10 @@ h1 {
 form {
   max-width: 500px;
   margin: 20px auto;
-  padding: 20px;
-  background-color: #afc5cc;
+  padding: 40px;
+  color: white;
+  /* background-color: #afc5cc; */
+  background-image: radial-gradient(transparent,black);
   border: 2px solid #100f0f;
   border-radius: 5px;
 }
@@ -53,5 +57,5 @@ button[type="submit"]:hover {
 
 footer{
   background-color: #100f0f;
-  padding: 40px;
+  padding: 0px;
 }
