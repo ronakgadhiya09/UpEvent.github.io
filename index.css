@@ -162,7 +162,7 @@ h1 {
     height: 34rem;
     display: inline-block;
     background-color: antiquewhite;
-    background-image: url("Content/poster.jpg");
+    background-image: url("Content\poster.jpg");
     background-size: cover;
     background-position: center;
     color: black;
