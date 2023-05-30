@@ -28,7 +28,7 @@ function evinfo() {
 var a = 0;
 var t = a;
 function nextevent() {
-    if (i < eventlength - 1) {
+    if (i < eventlength - 1 ) {
         i++
         if (t % 2 == 1) {
             info()
@@ -50,7 +50,7 @@ function lastevent() {
     }
 }
 function cardinfofun(p) {
-    let x = '<div id="eventinfocard"><div id="evnamediv"><span>' + eventname[p] + '</span></div><div id="descdiv"><span>' + eventdes[p] + '</span></div><div class="eventbtns" id="desdiv"><div><button class="navbutton eventnavbtns" title="share"><img src="content\\share.png" id="share"></button><button class="navbutton eventnavbtns" title="Participate"><a href = "participate.html" target ="_blank"><img src="content\\participate.png" id="takepart"></a></button><button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\\more.png" id="more"></button> </div></div></div></div>'
+    let x = '<div id="eventinfocard"><div id="evnamediv"><span>' + eventname[p] + '</span></div><div id="descdiv"><span>' + eventdes[p] + '</span></div><div class="eventbtns" id="desdiv"><div><button class="navbutton eventnavbtns" title="share"><img src="content\\share.png" id="share"></button><button class="navbutton eventnavbtns" title="Participate"><a href ="participate.html" target ="_blank"><img src="content\\participate.png" id="takepart"></a></button><button class="navbutton eventnavbtns" title="More" onclick="slide()"><img src="content\\more.png" id="more"></button> </div></div></div></div>'
     return x
 }
 function info() {
