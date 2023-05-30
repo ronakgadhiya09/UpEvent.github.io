@@ -3,8 +3,8 @@ body {
     padding: 0;
     color: rgb(255, 255, 255);
     /* background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");  */
-/*     background-image: radial-gradient(#fafafa, rgb(0, 0, 0)) ; */
-    background-image: url("content\\background3.jpg");
+    background-image: radial-gradient(#fafafa, rgb(0, 0, 0)) ;
+    /* background-image: url("content\\background.jpg"); */
     background-position: center;
     /* background: fixed; */
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ h1 {
     height: 34rem;
     display: inline-block;
     background-color: antiquewhite;
-    background-image: url("Content\poster.jpg");
+    background-image: url("Content/poster.jpg");
     background-size: cover;
     background-position: center;
     color: black;
@@ -349,6 +349,10 @@ h1 {
     margin: 0px 30px;
     background-color: black;
     border-radius: 100px;
+}
+
+#evntnvbtns.basebutton:hover{
+    opacity: 0.6;
 }
 
 .detail>div {
