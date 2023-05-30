@@ -2,8 +2,9 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image :linear-gradient(#c8daf3,white) ;
-    color: #333;
+    background-image: url("content\\background3.jpg");
+    /* background-image :linear-gradient(#c8daf3,white) ; */
+    color: #ffffff;
   }
   
   .main {
@@ -21,9 +22,9 @@ body {
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
+    align-items: stretch;
+    padding: 20px 20px;
+    background-color: #1b1b1b;
     color: #fff;
   }
   
@@ -60,7 +61,8 @@ body {
   /* Form Styles */
   
   .formdiv {
-    background-color: #f2efd5;
+    /* background-color: #282727; */
+    background-image: radial-gradient(transparent,black);
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
@@ -82,7 +84,7 @@ body {
   .textbox1 {
     padding: 5px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #545252;
     border-radius: 3px;
   }
   
