@@ -148,20 +148,22 @@ h1 {
 #Home,
 #Add,
 #Team {
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     display: inline-block;
 }
 
 #Add {
-    margin: 0px 0px -3px 0px;
+    margin: 0px 0px -4px 0px;
 }
+
+
 
 .notifposter {
     width: 70rem;
     height: 34rem;
     display: inline-block;
-/*     background-color: antiquewhite; */
+    background-color: antiquewhite;
     background-image: url("Content/poster.jpg");
     background-size: cover;
     background-position: center;
@@ -352,7 +354,7 @@ h1 {
 }
 
 #evntnvbtns.basebutton:hover{
-    opacity: 0.6;
+    opacity: 1;
 }
 
 .detail>div {
